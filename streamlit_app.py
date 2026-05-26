@@ -1,9 +1,13 @@
-import os
+import importlib.util
+import pathlib
 import sys
 
-BASE_DIR = os.path.dirname(__file__)
-PROJECT_DIR = os.path.join(BASE_DIR, 'Smart-Pay-main')
-if PROJECT_DIR not in sys.path:
-    sys.path.insert(0, PROJECT_DIR)
+ROOT = pathlib.Path(__file__).resolve().parent
+TARGET = ROOT / 'Smart-Pay-main' / 'streamlit_app.py'
 
-from streamlit_app import *  # noqa: F401
+spec = importlib.util.spec_from_file_location('smartpay_streamlit_app', str(TARGET))
+module = importlib.util.module_from_spec(spec)
+sys.modules['smartpay_streamlit_app'] = module
+spec.loader.exec_module(module)
+
+from smartpay_streamlit_app import *  # noqa: F401
