@@ -37,6 +37,62 @@ def load_users():
     finally:
         session.close()
 
+
+def create_sample_data():
+    session = SessionLocal()
+    try:
+        # Create sample users only if no existing users exist
+        if not session.query(User).count():
+            alice = User(
+                name="Alice",
+                email="alice@test.com",
+                mobile="9001001000",
+                wallet_balance=50000.0,
+                kyc_status="Verified",
+                risk_score=5,
+            )
+            bob = User(
+                name="Bob",
+                email="bob@test.com",
+                mobile="9002002000",
+                wallet_balance=30000.0,
+                kyc_status="Verified",
+                risk_score=10,
+            )
+            charlie = User(
+                name="Charlie",
+                email="charlie@test.com",
+                mobile="9003003000",
+                wallet_balance=100000.0,
+                kyc_status="Verified",
+                risk_score=15,
+            )
+            session.add_all([alice, bob, charlie])
+            session.commit()
+        else:
+            alice, bob, charlie = session.query(User).order_by(User.id).limit(3).all()
+
+        if not session.query(Transaction).count():
+            txns = [
+                Transaction(sender_id=alice.id, receiver_id=bob.id, amount=5000.0, txn_type="P2P", country="India", fraud_flag=0, risk_score=15),
+                Transaction(sender_id=alice.id, receiver_id=bob.id, amount=7000.0, txn_type="P2P", country="India", fraud_flag=0, risk_score=25),
+                Transaction(sender_id=alice.id, receiver_id=bob.id, amount=9000.0, txn_type="P2P", country="India", fraud_flag=0, risk_score=35),
+                Transaction(sender_id=bob.id, receiver_id=charlie.id, amount=15000.0, txn_type="P2P", country="USA", fraud_flag=0, risk_score=45),
+                Transaction(sender_id=bob.id, receiver_id=charlie.id, amount=17000.0, txn_type="P2P", country="USA", fraud_flag=0, risk_score=55),
+                Transaction(sender_id=bob.id, receiver_id=charlie.id, amount=19000.0, txn_type="P2P", country="USA", fraud_flag=1, risk_score=75),
+                Transaction(sender_id=charlie.id, receiver_id=alice.id, amount=3000.0, txn_type="P2P", country="India", fraud_flag=0, risk_score=20),
+                Transaction(sender_id=charlie.id, receiver_id=alice.id, amount=2500.0, txn_type="P2P", country="India", fraud_flag=0, risk_score=18),
+            ]
+            session.add_all(txns)
+            session.commit()
+        return True
+    except Exception:
+        session.rollback()
+        return False
+    finally:
+        session.close()
+
+
 st.set_page_config(page_title="SmartPay Dashboard", layout="wide")
 st.title("SmartPay Streamlit Dashboard")
 st.write("A Streamlit version of the SmartPay analytics dashboard.")
@@ -47,6 +103,16 @@ transactions = load_transactions()
 
 if not users and not transactions:
     st.info("No data available yet. Use the sample forms below to create users and transactions.")
+
+if st.button("Generate Sample Users and Transactions"):
+    created = create_sample_data()
+    if created:
+        load_users.clear()
+        load_transactions.clear()
+        st.success("Sample users and transactions created. Reloading page...")
+        st.experimental_rerun()
+    else:
+        st.error("Failed to create sample data. Try again.")
 
 user_df = pd.DataFrame([
     {
