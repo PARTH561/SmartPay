@@ -1,0 +1,103 @@
+﻿node.exe : > [debug] [2026-05-21T12:51:13.552Z] Found config in file 
+"C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\vercel.json"
+At C:\Users\parth\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (> [debug] [2026...in\vercel.json" 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> [debug] [2026-05-21T12:51:13.553Z] Vercel CLI 54.2.0
+> [debug] [2026-05-21T12:51:13.570Z] Agent/TTY/nonInteractive: isAgent=false 
+agentName=none stdin.isTTY=true --non-interactive=false explicitFalse=false => 
+nonInteractive=false
+> [debug] [2026-05-21T12:51:13.571Z] user supplied known subcommand: "logs"
+> [debug] [2026-05-21T12:51:13.968Z] Valid access token, skipping token 
+refresh.
+> [debug] [2026-05-21T12:51:14.024Z] #1 ΓåÆ GET https://api.vercel.com/v2/user
+> [debug] [2026-05-21T12:51:14.904Z] #1 ΓåÉ 200 OK: 
+sfo1::gq4vr-1779367874446-ebcad3dcf6f4 [880ms]
+> [debug] [2026-05-21T12:51:14.910Z] #2 ΓåÆ GET https://api.vercel.com/teams/te
+am_BcaHwLZH14ThSuWXDjdxbokw?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:51:15.217Z] #2 ΓåÉ 200 OK: 
+sfo1::8pdtb-1779367874786-d1abbed1c6e2 [306ms]
+> [debug] [2026-05-21T12:51:15.218Z] Spinner invoked (Resolving deployment 
+"smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app") with a 
+1000ms delay
+> [debug] [2026-05-21T12:51:15.219Z] #3 ΓåÆ GET https://api.vercel.com/v13/depl
+oyments/smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app?teamId=t
+eam_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:51:15.887Z] #3 ΓåÉ 200 OK: 
+sfo1::xn77j-1779367875098-16e74051be9e [668ms]
+> [debug] [2026-05-21T12:51:15.888Z] Spinner invoked (Fetching project 
+"prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE") with a 1000ms delay
+> [debug] [2026-05-21T12:51:15.889Z] #4 ΓåÆ GET https://api.vercel.com/v9/proje
+cts/prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:51:16.249Z] #4 ΓåÉ 200 OK: 
+sfo1::wl779-1779367875764-91b9fafdc2db [360ms]
+> [debug] [2026-05-21T12:51:16.250Z] Spinner invoked (Fetching logs...) with a 
+1000ms delay
+> [debug] [2026-05-21T12:51:16.252Z] #5 ΓåÆ GET https://vercel.com/api/logs/req
+uest-logs?projectId=prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE&ownerId=team_BcaHwLZH14ThS
+uWXDjdxbokw&page=0&startDate=1779364276251&endDate=1779367876251&deploymentId=d
+pl_8HxWdH3v8yAiNWrTbuLBstR5UYDd&environment=production&search=status%3A500&team
+Id=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:51:18.393Z] #5 ΓåÉ 200 OK: 
+bom1:bom1:sfo1:sfo1:bom1:sfo1:sfo1::sfo1::w2gjq-1779367876112-a8b81d63f442 
+[2.14s]
+TIME         HOST                                                            
+LEVEL                         STATUS  MESSAGE   
+18:20:01.51  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.png     500     could notΓÇª
+18:20:00.82  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /                500     could notΓÇª
+18:19:55.40  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     could notΓÇª
+18:19:54.28  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     could notΓÇª
+18:19:50.27  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     could notΓÇª
+18:19:46.65  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     could notΓÇª
+18:19:45.35  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     module(_eΓÇª
+18:19:44.40  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:44.13  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     could notΓÇª
+18:19:40.55  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:40.42  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:38.68  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico     500     could notΓÇª
+18:19:36.57  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:36.23  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:32.30  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:32.21  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     could notΓÇª
+18:19:31.97  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+18:19:31.95  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /                500     module(_eΓÇª
+Fetched 18 logs for radoncanary-5483s-projects/smart-pay-main
+> [debug] [2026-05-21T12:51:20.248Z] Telemetry event tracked
+> [debug] [2026-05-21T12:51:20.345Z] Telemetry subprocess exited with code 0
+> [debug] [2026-05-21T12:51:20.346Z] Spawning C:\Users\parth\AppData\Roaming\np
+m\node_modules\vercel\dist\get-latest-worker.cjs
+> '[debug] [2026-05-21T12:51:20.415Z] Notifying parent we're ready
+> '[debug] [2026-05-21T12:51:20.422Z] Received message from parent: {
+  cacheFile: 'C:\\Users\\parth\\AppData\\Local\\com.vercel.cli\\Cache\\package-
+updates\\vercel-latest.json',
+  distTag: 'latest',
+  name: 'vercel',
+  updateCheckInterval: 86400000
+}
+> '[debug] [2026-05-21T12:51:20.422Z] Disconnecting from parent
+> '[debug] [2026-05-21T12:51:20.425Z] Checking lock file: C:\Users\parth\AppDat
+a\Local\com.vercel.cli\Cache\package-updates\vercel-latest.lock
+> '[debug] [2026-05-21T12:51:20.426Z] Found lock file with pid: 17188
+> '[debug] [2026-05-21T12:51:20.427Z] Worker already running, exiting

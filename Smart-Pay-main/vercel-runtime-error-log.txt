@@ -1,0 +1,198 @@
+﻿node.exe : Resolving deployment "smart-pay-main.vercel.app"
+At C:\Users\parth\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Resolving deplo...ain.vercel.app" 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching project "prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE"
+Fetching logs...
+TIME         HOST                                                            
+LEVEL            
+18:26:42.26  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /   
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:42] "GET / HTTP/1.1" 500 -
+
+18:26:31.77  smart-pay-main-i7anuoqs5-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /   
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:31] "GET / HTTP/1.1" 500 -
+
+18:26:30.54  smart-pay-main-i7anuoqs5-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /   
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:30] "GET / HTTP/1.1" 500 -
+
+18:26:30.41  smart-pay-main-i7anuoqs5-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /   
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:30] "GET / HTTP/1.1" 500 -
+
+18:26:30.36  smart-pay-main-i7anuoqs5-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /   
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:30] "GET / HTTP/1.1" 500 -
+
+18:26:26.54  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /   
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode   
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+/var/task/_vendor/sklearn/linear_model/_logistic.py:406: ConvergenceWarning: 
+lbfgs failed to converge after 100 iteration(s) (status=1): STOP: TOTAL NO. OF 
+ITERATIONS REACHED LIMIT  Increase the number of iterations to improve the 
+convergence (max_iter=100). You might also want to scale the data as shown in: 
+    https://scikit-learn.org/stable/modules/preprocessing.html Please also 
+refer to the documentation for alternative solver options:     
+https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression  
+ n_iter_i = _check_optimize_result(
+Exception on / [GET] Traceback (most recent call last):   File 
+"/var/task/_vendor/flask/app.py", line 1511, in wsgi_app     response = 
+self.full_dispatch_request()                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 919, in full_dispatch_request     
+rv = self.handle_user_exception(e)          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+File "/var/task/_vendor/flask/app.py", line 917, in full_dispatch_request     
+rv = self.dispatch_request()          ^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/flask/app.py", line 902, in dispatch_request     return 
+self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: 
+ignore[no-any-return]            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/app.py", line 30, in home     return render_template_string(        
+    ^^^^^^^^^^^^^^^^^^^^^^^   File "/var/task/_vendor/flask/templating.py", 
+line 161, in render_template_string     template = 
+app.jinja_env.from_string(source)                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 1111, in from_string     
+return cls.from_code(self, self.compile(source), gs, None)                     
+           ^^^^^^^^^^^^^^^^^^^^   File 
+"/var/task/_vendor/jinja2/environment.py", line 771, in compile     
+self.handle_exception(source=source_hint)   File 
+"/var/task/_vendor/jinja2/environment.py", line 942, in handle_exception     
+raise rewrite_traceback_stack(source=source)   File "<unknown>", line 30, in 
+template jinja2.exceptions.TemplateSyntaxError: expected token 'end of print 
+statement', got ':'
+127.0.0.1 - - [21/May/2026 12:56:27] "GET / HTTP/1.1" 500 -
+
+Fetched 6 logs for radoncanary-5483s-projects/smart-pay-main

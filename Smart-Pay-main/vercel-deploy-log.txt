@@ -1,0 +1,241 @@
+﻿node.exe : > [debug] [2026-05-21T12:52:42.308Z] Found config in file 
+"C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\vercel.json"
+At C:\Users\parth\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (> [debug] [2026...in\vercel.json" 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> [debug] [2026-05-21T12:52:42.309Z] Vercel CLI 54.2.0
+> [debug] [2026-05-21T12:52:42.325Z] Agent/TTY/nonInteractive: isAgent=false 
+agentName=none stdin.isTTY=true --non-interactive=false explicitFalse=false => 
+nonInteractive=false
+> [debug] [2026-05-21T12:52:42.325Z] user supplied known subcommand: "deploy"
+> [debug] [2026-05-21T12:52:42.386Z] Setting target to production
+> [debug] [2026-05-21T12:52:42.398Z] Spinner invoked (Retrieving projectΓÇª) 
+with a 1000ms delay
+> [debug] [2026-05-21T12:52:42.400Z] Valid access token, skipping token 
+refresh.
+> [debug] [2026-05-21T12:52:42.455Z] #1 ΓåÆ GET https://api.vercel.com/teams/te
+am_BcaHwLZH14ThSuWXDjdxbokw?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:52:42.456Z] #2 ΓåÆ GET https://api.vercel.com/v9/proje
+cts/prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:52:43.383Z] #1 ΓåÉ 200 OK: 
+sfo1::vvffc-1779367962946-42b81592548b [928ms]
+> [debug] [2026-05-21T12:52:43.387Z] #2 ΓåÉ 200 OK: 
+sfo1::z96ps-1779367962852-1da9fce11608 [931ms]
+> [debug] [2026-05-21T12:52:43.389Z] Error while parsing repo data: ENOENT: no 
+such file or directory, open 
+'C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\.git\config'
+> [debug] [2026-05-21T12:52:43.480Z] Failed to get last commit. The directory 
+is likely not a Git repo, there are no latest commits, or it is corrupted.
+Error: this does not look like a git repo
+> [debug] [2026-05-21T12:52:43.483Z] Spinner invoked (Deploying 
+radoncanary-5483s-projects/smart-pay-main) with a 0ms delay
+[client-debug] 2026-05-21T12:52:43.484Z Creating deployment...
+[client-debug] 2026-05-21T12:52:43.484Z Provided 'path' is a directory.
+[client-debug] 2026-05-21T12:52:43.486Z Found 26 rules in .vercelignore
+[client-debug] 2026-05-21T12:52:43.486Z Building file tree...
+[client-debug] 2026-05-21T12:52:43.490Z Found 15 files in the specified 
+directory
+[client-debug] 2026-05-21T12:52:43.494Z Yielding a 'hashes-calculated' event 
+with 15 hashes
+[client-debug] 2026-05-21T12:52:43.494Z Using provided API URL: 
+https://api.vercel.com
+[client-debug] 2026-05-21T12:52:43.494Z Using provided user agent: vercel 
+54.2.0 node-v22.5.1 win32 (x64)
+[client-debug] 2026-05-21T12:52:43.494Z Setting platform version to harcoded 
+value 2
+[client-debug] 2026-05-21T12:52:43.494Z Creating the deployment and starting 
+upload...
+[client-debug] 2026-05-21T12:52:43.495Z Determining necessary files for 
+upload...
+[client-debug] 2026-05-21T12:52:43.495Z Creating deployment
+[client-debug] 2026-05-21T12:52:43.496Z Sending deployment creation API request
+[client-debug] 2026-05-21T12:52:43.843Z Deployment response: 
+{"error":{"code":"missing_files","message":"Missing files","missing":["02210bcf
+192739f9865272c6e6115af6fe4d2442","18d8c7311bc994060810f0c9a30b9419bec95ea7","3
+5c4833b52a69d8adbbd625da8c632592b7d9cc8","92058903822865053ad4609f5ae9716dbbd4f
+b49"]}}
+[client-debug] 2026-05-21T12:52:43.843Z Error: Deployment request status is 400
+[client-debug] 2026-05-21T12:52:43.843Z 4 files are required to upload
+[client-debug] 2026-05-21T12:52:43.843Z Yielding a 'file-count' event
+> [debug] [2026-05-21T12:52:43.843Z] Total files 15, 4 changed
+> [debug] [2026-05-21T12:52:43.844Z] Spinner invoked (Uploading 
+[--------------------] (0.0B/65.7KB)) with a 0ms delay
+[client-debug] 2026-05-21T12:52:43.845Z Building an upload list...
+[client-debug] 2026-05-21T12:52:43.846Z Starting upload
+[client-debug] 2026-05-21T12:52:43.847Z POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:43.848Z POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:43.849Z POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:43.851Z POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+> [debug] [2026-05-21T12:52:43.854Z] Spinner invoked (Uploading 
+[=====---------------] (18.4KB/65.7KB)) with a 0ms delay
+> [debug] [2026-05-21T12:52:43.855Z] Spinner invoked (Uploading 
+[=============-------] (45.5KB/65.7KB)) with a 0ms delay
+> [debug] [2026-05-21T12:52:43.856Z] Spinner invoked (Uploading 
+[==================--] (61.5KB/65.7KB)) with a 0ms delay
+> [debug] [2026-05-21T12:52:43.856Z] Spinner invoked (Uploading 
+[====================] (65.7KB/65.7KB)) with a 0ms delay
+[client-debug] 2026-05-21T12:52:44.254Z DONE in 407ms: POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:44.255Z File 
+02210bcf192739f9865272c6e6115af6fe4d2442 
+(C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\vercel-deploy-log.txt) 
+uploaded
+[client-debug] 2026-05-21T12:52:44.255Z Yielding a 'file-uploaded' event
+> [debug] [2026-05-21T12:52:44.255Z] Uploaded: 
+C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\vercel-deploy-log.txt 
+(2.41KB)
+[client-debug] 2026-05-21T12:52:44.660Z DONE in 812ms: POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:44.660Z File 
+18d8c7311bc994060810f0c9a30b9419bec95ea7 (C:\Users\parth\Downloads\Smart-Pay-ma
+in\Smart-Pay-main\vercel-runtime-log-expanded.txt) uploaded
+[client-debug] 2026-05-21T12:52:44.661Z Yielding a 'file-uploaded' event
+> [debug] [2026-05-21T12:52:44.661Z] Uploaded: C:\Users\parth\Downloads\Smart-P
+ay-main\Smart-Pay-main\vercel-runtime-log-expanded.txt (52.14KB)
+[client-debug] 2026-05-21T12:52:44.866Z DONE in 1017ms: POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:44.866Z File 
+35c4833b52a69d8adbbd625da8c632592b7d9cc8 (C:\Users\parth\Downloads\Smart-Pay-ma
+in\Smart-Pay-main\vercel-runtime-log.txt) uploaded
+[client-debug] 2026-05-21T12:52:44.866Z Yielding a 'file-uploaded' event
+> [debug] [2026-05-21T12:52:44.866Z] Uploaded: 
+C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\vercel-runtime-log.txt 
+(6.3KB)
+[client-debug] 2026-05-21T12:52:44.874Z DONE in 1023ms: POST 
+https://api.vercel.com/v2/files?teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:44.874Z File 
+92058903822865053ad4609f5ae9716dbbd4fb49 
+(C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\app.py) uploaded
+[client-debug] 2026-05-21T12:52:44.874Z Yielding a 'file-uploaded' event
+> [debug] [2026-05-21T12:52:44.874Z] Uploaded: 
+C:\Users\parth\Downloads\Smart-Pay-main\Smart-Pay-main\app.py (4.81KB)
+[client-debug] 2026-05-21T12:52:44.874Z All files uploaded
+[client-debug] 2026-05-21T12:52:44.874Z Yielding a 'all-files-uploaded' event
+[client-debug] 2026-05-21T12:52:44.874Z Starting deployment creation
+[client-debug] 2026-05-21T12:52:44.874Z Creating deployment
+[client-debug] 2026-05-21T12:52:44.874Z Sending deployment creation API request
+[client-debug] 2026-05-21T12:52:45.940Z Deployment response: {"alias":["smart-p
+ay-main-radoncanary-5483s-projects.vercel.app","smart-pay-main-radoncanary-5483
+-radoncanary-5483s-projects.vercel.app"],"aliasAssigned":false,"automaticAliase
+s":["smart-pay-main-radoncanary-5483s-projects.vercel.app","smart-pay-main-rado
+ncanary-5483-radoncanary-5483s-projects.vercel.app"],"bootedAt":1779367964962,"
+buildingAt":1779367964962,"buildSkipped":false,"createdAt":1779367964962,"creat
+or":{"uid":"taxjTG9QKgSJWyPsWbZyhgGD","username":"radoncanary-5483"},"id":"dpl_
+GnnMeCMmewfAwz6MbvMfPN9bMATC","name":"smart-pay-main","meta":{},"originCacheReg
+ion":"iad1","project":{"id":"prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE","name":"smart-pa
+y-main","framework":null},"public":false,"readyState":"INITIALIZING","regions":
+["iad1"],"source":"cli","status":"INITIALIZING","target":"production","team":{"
+id":"team_BcaHwLZH14ThSuWXDjdxbokw","name":"radoncanary-5483's projects","slug"
+:"radoncanary-5483s-projects"},"type":"LAMBDAS","url":"smart-pay-main-f61hap4mc
+-radoncanary-5483s-projects.vercel.app","version":2,"previewCommentsEnabled":tr
+ue,"oidcTokenClaims":{"sub":"owner:radoncanary-5483s-projects:project:smart-pay
+-main:environment:production","iss":"https://oidc.vercel.com/radoncanary-5483s-
+projects","scope":"owner:radoncanary-5483s-projects:project:smart-pay-main:envi
+ronment:production","aud":"https://vercel.com/radoncanary-5483s-projects","owne
+r":"radoncanary-5483s-projects","owner_id":"team_BcaHwLZH14ThSuWXDjdxbokw","pro
+ject":"smart-pay-main","project_id":"prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE","environ
+ment":"production","plan":"hobby"},"lambdas":[{"id":"bld_p4h4sxx46","createdAt"
+:1779367965200,"entrypoint":".","readyState":"READY","readyStateAt":17793679652
+00,"output":[]}],"aliasAssignedAt":null,"build":{"env":[]},"builds":[],"created
+In":"sfo1","env":[],"functions":null,"inspectorUrl":"https://vercel.com/radonca
+nary-5483s-projects/smart-pay-main/GnnMeCMmewfAwz6MbvMfPN9bMATC","isInConcurren
+tBuildsQueue":false,"isInSystemBuildsQueue":true,"ownerId":"team_BcaHwLZH14ThSu
+WXDjdxbokw","plan":"hobby","projectId":"prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE","proj
+ectSettings":{"buildCommand":null,"devCommand":null,"framework":null,"commandFo
+rIgnoringBuildStep":null,"installCommand":null,"outputDirectory":null,"speedIns
+ights":{"id":"fimp1pKYKmbVjBOYJhqhl9bYv13","hasData":false},"webAnalytics":{"id
+":"XmhViUMuG5mwgwLL613RPrCu6"},"nodeVersion":"24.x"},"routes":[{"src":"^/(.*)$"
+,"dest":"api/index.py"}],"config":{"version":1,"secureComputePrimaryRegion":nul
+l,"secureComputeFallbackRegion":null,"functionTimeout":300,"functionType":"flui
+d","functionMemoryType":"standard","isUsingActiveCPU":true,"resourceConfig":{"b
+uildQueue":{"configuration":"SKIP_NAMESPACE_QUEUE"}}}}
+[client-debug] 2026-05-21T12:52:45.940Z Deployment created
+[client-debug] 2026-05-21T12:52:45.940Z Yielding a 'created' event
+  Inspect     https://vercel.com/radoncanary-5483s-projects/smart-pay-main/GnnM
+eCMmewfAwz6MbvMfPN9bMATC
+Γû▓ Production  
+https://smart-pay-main-f61hap4mc-radoncanary-5483s-projects.vercel.app
+> [debug] [2026-05-21T12:52:45.941Z] Spinner invoked (BuildingΓÇª) with a 0ms 
+delay
+> [debug] [2026-05-21T12:52:45.942Z] #3 ΓåÆ GET https://api.vercel.com/v2/user
+[client-debug] 2026-05-21T12:52:45.942Z Waiting for deployment to be ready...
+[client-debug] 2026-05-21T12:52:45.942Z Waiting for builds and the deployment 
+to complete...
+> [debug] [2026-05-21T12:52:46.256Z] #3 ΓåÉ 200 OK: 
+sfo1::rjf8n-1779367965814-7d50ba766653 [314ms]
+> [debug] [2026-05-21T12:52:46.257Z] #4 ΓåÆ GET https://api.vercel.com/v3/now/d
+eployments/dpl_GnnMeCMmewfAwz6MbvMfPN9bMATC/events?direction=forward&follow=1&f
+ormat=lines&teamId=team_BcaHwLZH14ThSuWXDjdxbokw
+[client-debug] 2026-05-21T12:52:47.948Z Deployment state changed to BUILDING
+[client-debug] 2026-05-21T12:52:47.948Z Yielding a 'building' event
+> [debug] [2026-05-21T12:52:47.948Z] Spinner invoked (BuildingΓÇª) with a 0ms 
+delay
+> [debug] [2026-05-21T12:52:49.278Z] #4 ΓåÉ 200 OK: 
+sfo1::dsqmq-1779367966124-4f0df82cb2f8 [3.02s]
+> [debug] [2026-05-21T12:52:49.279Z] Spinner invoked (Running build in 
+Washington, D.C., USA (East) ΓÇô iad1) with a 0ms delay
+> [debug] [2026-05-21T12:52:49.279Z] Spinner invoked (Build machine 
+configuration: 2 cores, 8 GB) with a 0ms delay
+> [debug] [2026-05-21T12:52:49.279Z] Spinner invoked (Retrieving list of 
+deployment files...) with a 0ms delay
+> [debug] [2026-05-21T12:52:49.279Z] Spinner invoked (Downloading 15 
+deployment files...) with a 0ms delay
+> [debug] [2026-05-21T12:52:50.453Z] Spinner invoked (Restored build cache 
+from previous deployment (8HxWdH3v8yAiNWrTbuLBstR5UYDd)) with a 0ms delay
+> [debug] [2026-05-21T12:52:51.628Z] Spinner invoked (Running "vercel build") 
+with a 0ms delay
+> [debug] [2026-05-21T12:52:51.628Z] Spinner invoked (Vercel CLI 54.2.0) with 
+a 0ms delay
+> [debug] [2026-05-21T12:52:51.629Z] Spinner invoked (No Python version 
+specified in .python-version, pyproject.toml, or Pipfile.lock. Using python 
+version: 3.12) with a 0ms delay
+> [debug] [2026-05-21T12:52:51.629Z] Spinner invoked (Using uv 0.10.11) with a 
+0ms delay
+> [debug] [2026-05-21T12:52:51.629Z] Spinner invoked (Installing required 
+dependencies from requirements.txt...) with a 0ms delay
+> [debug] [2026-05-21T12:52:52.796Z] Spinner invoked (Build Completed in 
+/vercel/output [957ms]) with a 0ms delay
+> [debug] [2026-05-21T12:52:52.796Z] Spinner invoked (Deploying outputs...) 
+with a 0ms delay
+> [debug] [2026-05-21T12:53:21.652Z] Spinner invoked (Deployment completed) 
+with a 0ms delay
+> [debug] [2026-05-21T12:53:21.652Z] Spinner invoked (Creating build cache...) 
+with a 0ms delay
+[client-debug] 2026-05-21T12:53:22.285Z Deployment state changed to READY
+[client-debug] 2026-05-21T12:53:22.285Z Yielding a 'ready' event
+[2K[1A[2K[GΓû▓ Production  
+https://smart-pay-main-f61hap4mc-radoncanary-5483s-projects.vercel.app
+> [debug] [2026-05-21T12:53:22.288Z] Spinner invoked (CompletingΓÇª) with a 
+0ms delay
+[client-debug] 2026-05-21T12:53:22.288Z Deployment alias assigned
+[client-debug] 2026-05-21T12:53:22.288Z Deployment is ready
+[client-debug] 2026-05-21T12:53:22.288Z Yielding a 'alias-assigned' event
+Γû▓ Aliased     https://smart-pay-main.vercel.app
+
+Γ£ô Ready in 39s
+> [debug] [2026-05-21T12:53:24.001Z] Telemetry event tracked
+> [debug] [2026-05-21T12:53:24.092Z] Telemetry subprocess exited with code 0
+> [debug] [2026-05-21T12:53:24.094Z] Spawning C:\Users\parth\AppData\Roaming\np
+m\node_modules\vercel\dist\get-latest-worker.cjs
+> '[debug] [2026-05-21T12:53:24.157Z] Notifying parent we're ready
+> '[debug] [2026-05-21T12:53:24.163Z] Received message from parent: {
+  cacheFile: 'C:\\Users\\parth\\AppData\\Local\\com.vercel.cli\\Cache\\package-
+updates\\vercel-latest.json',
+  distTag: 'latest',
+  name: 'vercel',
+  updateCheckInterval: 86400000
+}
+> '[debug] [2026-05-21T12:53:24.163Z] Disconnecting from parent
+> '[debug] [2026-05-21T12:53:24.165Z] Checking lock file: C:\Users\parth\AppDat
+a\Local\com.vercel.cli\Cache\package-updates\vercel-latest.lock
+> '[debug] [2026-05-21T12:53:24.167Z] Found lock file with pid: 17188
+> '[debug] [2026-05-21T12:53:24.167Z] Worker already running, exiting
+https://smart-pay-main-f61hap4mc-radoncanary-5483s-projects.vercel.app

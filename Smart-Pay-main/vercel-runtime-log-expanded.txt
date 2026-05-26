@@ -1,0 +1,752 @@
+﻿node.exe : Resolving deployment 
+"smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app"
+At C:\Users\parth\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Resolving deplo...cts.vercel.app" 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching project "prj_Ouebv9a7W0cBQp4oACW0a8cAu5nE"
+Fetching logs...
+TIME         HOST                                                            
+LEVEL                       
+18:20:01.51  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.png   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:20:00.82  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /              
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:55.40  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:54.28  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:50.27  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:46.65  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:45.35  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:44.40  smart-pay-main.vercel.app                                       
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:44.13  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:40.55  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:40.42  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:38.68  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /favicon.ico   
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:36.57  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:36.23  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:32.30  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:32.21  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:31.97  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+18:19:31.95  smart-pay-main-a029y2zj4-radoncanary-5483s-projects.vercel.app  
+error  ╬╗ GET /              
+module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue. 
+could not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) could 
+not import "api/index.py": Traceback (most recent call last): File 
+"/var/task/_vendor/vercel_runtime/vc_init.py", line 474, in <module> 
+__vc_module = import_module(_entrypoint_modname, _entrypoint_abs) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File 
+"/var/task/_vendor/vercel_runtime/resolver.py", line 24, in import_module 
+spec.loader.exec_module(mod) File "<frozen importlib._bootstrap_external>", 
+line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in 
+_call_with_frames_removed File "/var/task/api/index.py", line 1, in <module> 
+from app import app File "/var/task/app.py", line 8, in <module> from app 
+import app ImportError: cannot import name 'app' from partially initialized 
+module 'app' (most likely due to a circular import) (/var/task/app.py) 
+/var/task/_vendor/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 
+2] No such file or directory.  joblib will operate in serial mode 
+warnings.warn("%s.  joblib will operate in serial mode" % (e,)) Python process 
+exited with exit status: 1. The logs above can help with debugging the issue.
+
+Fetched 18 logs for radoncanary-5483s-projects/smart-pay-main
