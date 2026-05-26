@@ -110,7 +110,6 @@ if st.button("Generate Sample Users and Transactions"):
         load_users.clear()
         load_transactions.clear()
         st.success("Sample users and transactions created. Reloading page...")
-        st.experimental_rerun()
     else:
         st.error("Failed to create sample data. Try again.")
 
@@ -234,6 +233,5 @@ if submitted:
                 "aml_flags": aml_flags,
                 "fraud_flag": fraud_flag,
             })
-            st.experimental_rerun()
     finally:
         session.close()
